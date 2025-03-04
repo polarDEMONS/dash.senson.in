@@ -475,7 +475,7 @@ button, a {
   flex-wrap: wrap;
 }
 .project-boxes.jsGridView .project-box-wrapper {
-  width: 33.3%;
+  width: 25%;
 }
 .project-boxes.jsListView .project-box {
   display: flex;
@@ -924,6 +924,8 @@ button, a {
     font-size: 12px; /* Adjust font size as needed */
     color: #333; /* Specify color for the numerical value */
 }
+
+
 
 
 

@@ -114,7 +114,7 @@ function fetchDataAndRenderChart(config) {
     // Set interval to fetch data and update chart every 5 seconds
     setInterval(() => {
         fetchData().then(updateChart);
-    }, 5000);
+    }, 1000);
 }
 
 // Call the function for each chart configuration

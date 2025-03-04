@@ -40,7 +40,7 @@ async function countActiveOfflineAndWarningSensors(channels) {
 
                         // Check if the last fetched numerical value is greater than 30
                         const lastValue = parseFloat(data.feeds[0][`field${field}`]);
-                        if (!isNaN(lastValue) && lastValue > 30) {
+                        if (!isNaN(lastValue) && lastValue > 35) {
                             warningSensorCount++;
                         }
                     } else {
